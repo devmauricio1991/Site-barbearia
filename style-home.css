@@ -1,0 +1,248 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(lightgrey, gray, white, lightgrey, gray, black);
+}
+
+header {
+	background: #CCCCCC;
+	padding: 20px 0px;
+}
+
+
+.tituloprincipal {
+	padding-left: 170px;
+	font-weight: bold;
+ 	font-size: 22px;
+}
+
+.banner {
+	width: 100%;
+
+}
+
+.caixa{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+nav{	
+	position: absolute;
+	top: 110px;
+	right: 0px;"
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    background: #999999;
+}
+
+nav:hover{
+	border-color: white;
+	transition: 1s all;
+}
+
+ nav li{
+ 	display: inline;
+ 	margin: 0 0 0 15px;
+    padding: 20px 20px 20px 20px;
+ }
+
+ nav a{
+ 	text-transform: uppercase;
+ 	color: #000000;
+ 	font-weight: bold;
+ 	font-size: 22px;
+ 	text-decoration: none;
+ 	transition: 1s all;
+
+ }
+
+ nav a:hover {
+    color: #FFFFFF;
+    font-size: 22px;
+    
+ }
+
+.principal {
+	margin: 70px;
+	padding: 70px;
+}
+
+.principal p{
+	margin: 1em;
+	font-size: 1em;
+	padding: 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.utensilios{
+	width: 150px;
+	float: left;
+	margin: 0 20px 20px 0;
+
+	/*Existe um comando:  clear, que coloca o texto na proxima linha*/;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+p {
+	text-align: left;
+}
+
+#missao {
+	font-size: 20px;
+}
+
+
+.itens {
+	font-style: italic;
+	list-style: disc;
+}
+
+.mapa p, .mapa{
+	text-align: center;
+	padding: 20px;
+	margin: 20px;	
+	}
+
+.video{
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+
+.conteudo-beneficios{
+	padding: 10px;
+	margin: 30px;
+
+}
+
+#bannerbeneficios {
+	width: 50%;
+	margin: 3em;
+	float: right;
+	box-shadow: 10px 10px 30px #000000;
+}
+
+#lista-beneficios {
+	font-size: 21px;
+	text-align: justify-all;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	font-weight: bold;
+	line-height: 50px;
+	float: right;
+	padding: 3em;
+}
+
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 30px;
+    margin-top: 300px;
+
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+
+//*@media screen and (max-width: 480px){
+	.caixa, .principal, .conteudo-beneficios, .mapa, .video {
+		width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	#bannerbeneficios{
+		width: 100%;
+		padding: auto;
+		margin: auto;
+		margin-top: 10px;
+		box-shadow: black;
+	}
+
+	#lista-beneficios {
+		font-size: 21px;
+		text-align: justify-all;
+		display: inline-block;
+		vertical-align: middle;
+		width: 100%;
+		font-weight: bold;
+		line-height: 60px;
+		float: none;
+		padding: 3em;
+	}
+
+	.principal{
+		margin: 10px;
+		padding: 10px;
+		font-size: 1em;
+	}
+
+	.mapa{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	nav a{
+	 	font-size: 14px;
+	 	font-weight: bold;
+	 	margin: 0px;
+	    padding: 3px;
+	    text-align: center;
+	    vertical-align: middle;
+    }
+
+    nav {
+    	padding: 0px;
+    	margin: 0px;
+	    border: 0px none #000000;
+	    background: #CCCCCC;
+    }
+}

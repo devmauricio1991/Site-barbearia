@@ -1,0 +1,171 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+ 	background: #BBBBBB;
+ 	padding: 20px 0px;
+    border-bottom: 2px solid #000000;
+ }
+
+.titulo-principal{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.caixa{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+nav{	
+	position: absolute;
+	top: 110px;
+	right: 0px;"
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    background: #999999;
+}
+
+nav:hover{
+    border-color: white;
+    transition: 1s all;
+}
+
+ nav li{
+ 	display: inline;
+ 	margin: 0 0 0 15px;
+    padding: 20px 20px 20px 20px;
+ }
+
+ nav a{
+ 	text-transform: uppercase;
+ 	color: #000000;
+ 	font-weight: bold;
+ 	font-size: 22px;
+ 	text-decoration: none;
+    transition: 1s all;
+ }
+
+ nav a:hover {
+    color: #FFFFFF;
+    font-size: 22px;
+ }
+
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0px;
+}
+
+ .produtos li{
+ 	display: inline-block;
+ 	text-align: center;
+ 	width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid #000000;
+    border-radius: 20px 40px 50px 60px;
+ }
+
+.produtos li:hover {
+    border-color: #000000;
+}
+.produtos li:active {
+    border-color: #CCCCCC;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+ .produtos h2{
+ 	font-size: 22px;
+ 	font-weight: bold;
+    transition: 1s all;
+
+ }
+
+ .produtos-preco{
+ 	font-size: 22px;
+ 	font-weight: bold;
+    margin-top: 20px;
+ }
+
+ .produto-descricao{
+ 	font-size: 18px;
+ }
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 30px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 480px){
+    .caixa, .produtos, .conteudo-beneficios, .mapa, .video {
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .produtos li{
+        display: inline;
+        text-align: center;
+        width: 30%;
+        vertical-align: middle;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        border: 0px none #000000;
+    }
+
+    .produtos{
+        width: 940px;
+        margin: 0 auto;
+        padding: 0px
+    }
+
+    .produtos h2 {
+        font-size: 22px;
+        font-weight: bold;
+        transition: 1s all; 
+    }
+
+
+    nav a{
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0px;
+        padding: 3px;
+        text-align: center;
+        vertical-align: middle;
+        background: #CCCCCC;
+    }
+
+    nav {
+        position: static;
+        padding: 0px;
+        margin: 0px;
+        border: 0px solid #000000;
+        border-radius: 90px, 90px, 90px,90px;
+        background: #CCCCCC;
+    }
+}
